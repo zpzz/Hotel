@@ -1,0 +1,321 @@
+.hotel-img {
+  position: absolute;
+}
+
+.xp_img {
+  float: left;
+  width: 25px;
+  height: 25px;
+}
+
+.small {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.small1 {
+  width: 10px;
+  height: 10px;
+}
+
+.font_weight {
+  font-weight: 1000;
+  float: left;
+  font-size: 15px;
+  width: 250px;
+  height: 25px;
+}
+
+.font_fm {
+  width: 78%;
+  height: 50rpx;
+  float: left;
+}
+
+.font_xm {
+  float: left;
+  width: 22%;
+  height: 50rpx;
+}
+
+.font_size {
+  font-size: 12px;
+  font-weight: 1000;
+}
+
+.img_top {
+  width: 100%;
+  height: 500rpx;
+}
+
+.hotel_zuoxia {
+  position: relative;
+  top: 450rpx;
+  width: 155rpx;
+  height: 50rpx;
+  color: #fff;
+}
+
+.evaluate {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  float: right;
+  padding: 5px;
+  top: 90px;
+  color: #fff;
+}
+
+.introduce {
+  position: relative;
+  padding: 8px 8px;
+  width: 98%;
+  height: 231rpx;
+  border-bottom: 2px #eee solid;
+}
+
+.font_size1 {
+  width: 54px;
+  height: 25px;
+  float: left;
+  line-height: 23px;
+}
+
+.location {
+  float: left;
+  width: 100%;
+  height: 60rpx;
+  font-weight: 1000;
+  padding: 5rpx;
+}
+
+.service {
+  width: 100%;
+  height: 50px;
+}
+
+.service_img {
+  width: 25%;
+  height: 50rpx;
+  float: left;
+  text-align: left;
+  line-height: 50rpx;
+}
+
+.coupon {
+  width: 98%;
+  height: 70rpx;
+  padding: 5px;
+  border-bottom: 2px #eee solid;
+  line-height: 70rpx;
+}
+
+.coupon_lef {
+  font-size: 15px;
+  float: left;
+  font-weight: 1000;
+}
+
+.coupon_rit {
+  float: right;
+  width: 111rpx;
+}
+
+.time {
+  width: 100%;
+  height: 111rpx;
+}
+
+.flex3 {
+  width: 280rpx;
+  height: 50rpx;
+  float: left;
+  font-size: 13px;
+  padding: 8px 5px;
+}
+
+.font-1 {
+  float: left;
+  font-weight: 1000;
+  margin-right: 20rpx;
+}
+
+.iconnum {
+  float: right;
+  width: 135rpx;
+  line-height: 75rpx;
+}
+
+.select {
+  width: 700rpx;
+  height: 50rpx;
+  margin: 0 auto;
+}
+
+.select_btn {
+  width: 110rpx;
+  height: 50rpx;
+  float: left;
+  text-align: center;
+  font-size: 32rpx;
+  margin-left: 10px;
+  background-color: #eee;
+  border-radius: 15%;
+  line-height: 50rpx;
+}
+
+.room {
+  width: 95%;
+  height: 200rpx;
+  margin: 60rpx auto;
+}
+
+.room_img {
+  width: 300rpx;
+  height: 200rpx;
+  border-radius: 7%;
+  float: left;
+}
+
+.font_room {
+  margin: 10rpx;
+  float: left;
+  width: 290rpx;
+  height: 200rpx;
+}
+
+.font_room1 {
+  font-weight: 1000;
+}
+
+.font_gray {
+  font-size: 26rpx;
+  color: rgba(145, 145, 145, 0.801);
+  font-weight: 1000;
+}
+
+.font_red {
+  color: red;
+}
+
+.room_picture1 {
+  width: 60rpx;
+  height: 200rpx;
+  float: left;
+  line-height: 200rpx;
+  margin: 10rpx;
+}
+
+.room_picture {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.hotel_detail_pic {
+  width: 100%;
+  height: 460rpx;
+
+  
+}
+
+.hotel_title {
+  width: 80%;
+  height: 50rpx;
+  float: left;
+  padding: 20rpx;
+  font-weight: 1000;
+}
+
+.btn {
+  height: 50rpx;
+  width: 50rpx;
+  float: right;
+  margin: 20rpx;
+}
+
+.hotel_detail_cnt {
+  width: 97%;
+  height: 125rpx;
+  margin: 0 auto;
+  border-bottom: 2px #eee solid;
+  border-right: 5px #eee solid;
+  border-left: 5px #eee solid;
+  border-top: 2px #eee solid;
+}
+
+.hotel_detail_img {
+  width: 192rpx;
+  height: 50rpx;
+  float: left;
+  margin-left: 45rpx;
+  margin-top: 10rpx;
+  font-size: 26rpx;
+}
+
+.hotel_detail_text {
+  width: 89%;
+  height: 120rpx;
+  border-bottom: 2px #eee solid;
+  border-right: 5px #eee solid;
+  border-left: 5px #eee solid;
+  padding: 10rpx 30rpx;
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 80%;
+  background-color: #000;
+  float: left;
+  margin-top: 20rpx;
+  margin-right: 10px;
+  margin-left: 4px;
+}
+
+.xiao {
+  font-size: 27rpx;
+}
+
+.hotel_detail_lst {
+  width: 100%;
+  height: 105rpx;
+  background-color: #eee;
+}
+
+.hotel_detail_lst_font {
+  width: 323rpx;
+  height: 105rpx;
+  line-height: 105rpx;
+  margin-left: 20rpx;
+  font-weight: 1000;
+  float: left;
+}
+.hotel_detail_yu{
+  height: 105rpx;
+  width: 391rpx;
+  margin-right: 10rpx;
+  float: right;
+}
+.hotel_detail_yu button {
+  width: 100%;
+  margin-top: 12rpx;
+  background-color: #328589;
+  color: #fff;
+}
+
+.zhezao {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.beijing {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+}

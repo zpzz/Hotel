@@ -1,0 +1,165 @@
+text {
+  font-size: 28rpx;
+  color: #399499;
+}
+
+.bian {
+  width: 95%;
+  height: 1020rpx;
+  margin: 0 auto;
+  margin-top: 50rpx;
+  border: 2px dashed #000;
+}
+
+.tabar {
+  color: #399499;
+  font-size: 35rpx;
+  text-align: center;
+  margin-top: 30rpx;
+}
+
+.tabar_img {
+  width: 130rpx;
+  height: 130rpx;
+  margin: 0 auto;
+}
+
+.tabar_ft {
+  width: 130rpx;
+  height: 100rpx;
+  margin-left: 46%;
+  font-size: 30rpx;
+}
+
+.heshi {
+  height: 130rpx;
+  line-height: 95rpx;
+  color: #399499;
+}
+
+.ident {
+  width: 500rpx;
+  height: 600rpx;
+  position: absolute;
+  margin-left: 16rpx;
+  margin-top: 16rpx;
+}
+
+.ident_img {
+  width: 475rpx;
+height: 263rpx;
+margin-bottom: 30rpx;
+
+}
+
+.question-images {
+  width: 500rpx;
+  height: 600rpx;
+  float: left;
+}
+
+.q-image-wrap {
+  width: 465rpx;
+  height: 256rpx;
+  float: left;
+  margin: 20rpx;
+  position: relative;
+  overflow: hidden;
+}
+.q-image{
+  width: 465rpx;
+height: 256rpx;
+border-radius: 5%;
+
+}
+.q-image-remover {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+  background: #2e82ff;
+  position: absolute;
+  top: -50rpx;
+  right: -50rpx;
+}
+
+.q-image-remover icon {
+  position: absolute;
+  left: 12rpx;
+  bottom: 12rpx;
+  color: #fff;
+}
+
+.uploadImgBtn {
+  width: 150rpx;
+  height: 150rpx;
+  text-align: center;
+  line-height: 140rpx;
+  border: 6rpx solid #f0f0f0;
+  float: left;
+}
+
+.uploadImgBtn icon {
+  font-size: 80rpx;
+  color: #999;
+}
+
+.text {
+  width: 200rpx;
+  height: 300rpx;
+  line-height: 300rpx;
+  float: left;
+}
+
+.navbar {
+  width: 95%;
+  height: 300rpx;
+  margin: 0 auto;
+  font-size: 30rpx;
+  color: rgb(139, 139, 139);
+  padding: 20rpx;
+  letter-spacing: 1px;
+  margin-top: 50rpx;
+}
+button{
+  color: #fff;
+  background-color: #399499;
+  border-radius: 5%;
+
+}
+.zs{
+  position: absolute;
+  width: 50rpx;
+  height:50rpx;
+  border-top: 15rpx #399499 solid;
+  border-left: 15rpx #399499 solid;
+  left: 10rpx;
+  top: 45rpx;
+}
+.ys{
+  position: absolute;
+  width: 50rpx;
+  height:50rpx;
+  border-top: 15rpx #399499 solid;
+  border-right: 15rpx #399499 solid;
+  right: 10rpx;
+  top: 45rpx;
+}
+.zx{
+  position: absolute;
+  width: 50rpx;
+  height:50rpx;
+  border-bottom: 15rpx #399499 solid;
+  border-left: 15rpx #399499 solid;
+  left: 10rpx;
+  top: 1020rpx;
+}
+.yx{
+  position: absolute;
+  width: 50rpx;
+  height:50rpx;
+  border-bottom: 15rpx #399499 solid;
+  border-right: 15rpx #399499 solid;
+  right: 10rpx;
+  top: 1020rpx;
+}
+

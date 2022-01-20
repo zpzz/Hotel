@@ -1,0 +1,53 @@
+
+<view class="zs"></view>
+<view class="ys"></view>
+<view class="zx"></view>
+<view class="yx"></view>
+<view class="bian">
+  <view class="tabar">点击拍摄或上传照片</view>
+  <view class="tabar_img"><image style="width: 130rpx;height: 130rpx;" src="/resource/index_img/zhaopian.jpg"></image></view>
+  <view class="tabar_ft">
+    <image style="width: 40rpx;height: 100rpx;float:left" src="/resource/index_img/jt.jpg"></image>
+    <view class="heshi">核实</view>
+  </view>
+
+  <view class="ident">
+    <view><image class="ident_img" src="/resource/index_img/sfzb.jpg"></image></view>
+    <view><image class="ident_img" src="/resource/index_img/sfzz.jpg"></image></view>
+  </view>
+
+  <view class="question-images clearFloat">
+    <block wx:for="{{images}}" wx:key="*this">
+      <view class="q-image-wrap">
+        <!-- 图片缩略图  -->
+        <image class="q-image" src="{{item}}" mode="aspectFill" data-idx="{{index}}" bindtap="handleImagePreview"></image>
+        <!-- 移除图片的按钮  -->
+        <view class="q-image-remover" data-idx="{{index}}" bindtap="removeImage">
+          <icon class='iconfont icon-guanbi'></icon>
+        </view>
+      </view>
+    </block>
+
+  </view>
+
+  <view class="text">
+    <text bindtap="chooseImage" wx:if="{{images.length < 1}}" class='pf-type'>上传身份证正面</text>
+    <text wx:else> 上传身份证正面</text>
+  </view>
+
+  <view class="text">
+    <text bindtap="chooseImage" wx:if="{{images.length < 2&&images.length !=0}}" class='pf-type'>上传身份证背面</text>
+    <text wx:else> 上传身份证背面</text>
+  </view>
+  <view>
+    <button>确定提交</button>
+  </view>
+</view>
+
+<view class="navbar">
+  <view>隐私问题:</view>
+  <view>本软件将保护您提供给本软件的个人信息和数据，未经您的
+同意，本软件不会任意将您的个人数据披露、出售、出租或
+转让予任何第三者 ，有疑惑或不解请及时联系本软件在线客
+服解答 </view>
+</view>

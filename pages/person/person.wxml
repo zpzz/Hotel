@@ -1,0 +1,33 @@
+<view>
+  <view class="info">
+    <view class="info_per">
+      <view class="float_z">姓名：张三</view>
+      <view class="float_z">性别：男</view>
+      <view class="float_z">身份：VIP</view>
+      <view class="float_z">房间号：505</view>
+      <view class="float_z">身份证号码</view>
+      <view class="float_z">入住时间：</view>
+      <view class="float_z">离店时间：</view>
+    </view>
+    <view class="float_r">
+      <image src=""></image>
+    </view>
+  </view>
+  <view class="font_w">
+    <view class="font_weight">注意：</view>
+    <view>确认信息后，可在房间服务处进行其他功能的
+使用</view>
+  </view>
+  <view class="font_w font_color">
+    <view class="font_weight">隐私问题：</view>
+    <view class="font_size">
+本软件将保护您提供给本软件的个人信息和数据，未经您的
+同意，本软件不会任意将您的个人数据披露、出售、出租或
+转让予任何第三者 ，有疑惑或不解请及时联系本软件在线客
+服解答 </view>
+  </view>
+
+
+
+
+</view>

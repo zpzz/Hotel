@@ -1,0 +1,15 @@
+<view class="top">入住人管理</view>
+
+<view class="containerr">
+  <view class="mount">添加入住人</view>
+ <view class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}} {{items.length==index+1?'':'border'}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove" wx:for="{{items}}" wx:key="{{itemscontent.id}}">
+  
+  <view class="content">
+    <view class="name">{{item.content.name}}</view>
+    <view class="idcard">身份证  {{item.content.idcard}}</view> 
+    <view class="idcard">电话号码  {{item.content.phone}}</view>
+  </view>
+
+  <view class="del" catchtap="del" data-index="{{index}}" data-id="{{item.content.id}}">删除</view>
+ </view>
+</view>

@@ -1,0 +1,197 @@
+.home {
+}
+form{
+  width: 100%;
+  height: 500rpx;
+}
+input {
+  margin-left: 66px;
+  position: relative;
+  display: inline;
+  float: left;
+  width: 300rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  top: 14px;
+}
+.top {
+  width: 100%;
+  height: 350rpx;
+  background-color: #328589;
+}
+
+.top_content {
+  position: relative;
+  top: 50rpx;
+  width: 75%;
+  height: 220rpx;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10%;
+  padding: 24rpx;
+}
+
+.content1 {
+  font-weight: 1000;
+  font-size: 32rpx;
+  margin: 10rpx;
+}
+
+.content2 {
+  margin: 10rpx;
+  color: rgba(153, 153, 153, 0.712);
+  font-size: 26rpx;
+}
+
+.content3 {
+  margin: 20rpx 10rpx;
+  color: rgba(0, 0, 255, 0.562);
+}
+
+.select {
+  width: 100%;
+  height: 110rpx;
+  border-bottom: 2px #eee solid;
+}
+
+.font_room {
+  width: 140rpx;
+  height: 110rpx;
+  float: left;
+  line-height: 110rpx;
+  margin: 0 40rpx;
+  font-weight: 1000;
+  font-size: 32rpx;
+}
+
+.font_name {
+  width: 100%;
+  height: 110rpx;
+  font-weight: 1000;
+  border-bottom: 2px #eee solid;
+  line-height: 110rpx;
+}
+
+.picker {
+  width: 100%;
+  height: 110rpx;
+  line-height: 110rpx;
+  text-align: center;
+  border-bottom: 12px #eee solid;
+}
+.picker1{
+  width: 73%;
+  height: 110rpx;
+  line-height: 110rpx;
+  text-align: center;
+}
+.coupon {
+  width: 100%;
+  height: 110rpx;
+  margin: 20rpx auto;
+  font-weight: 1000;
+  border-bottom: 2px #eee solid;
+  padding-left: 20rpx;
+
+}
+
+.coupon_b {
+  width: 80rpx;
+  height: 70rpx;
+  margin-left: 20rpx;
+}
+
+.coupon_red {
+  font-size: 25rpx;
+  width: 250rpx;
+  height: 50rpx;
+  margin-left: 20rpx;
+}
+
+.coupon_red1 {
+  float: left;
+  width: 100rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+}
+
+.coupon_red2 {
+  width: 100rpx;
+  height: 50rpx;
+}
+
+.detail1 {
+  width: 100%;
+  height: 85rpx;
+  margin-top: 30rpx;
+padding-left: 20rpx;
+
+  font-size: 24rpx;
+  font-weight: 1000;
+  border-bottom: 2px #eee solid;
+}
+
+.detail2 {
+  width: 94%;
+  height: 85rpx;
+  padding: 20rpx;
+  font-size: 24rpx;
+  font-weight: 1000;
+  border-bottom: 2px #eee solid;
+}
+
+.submit {
+  width: 100%;
+}
+
+.submit_le {
+  float: left;
+  padding: 30rpx;
+}
+
+.submit_rit {
+  padding: 20rpx;
+}
+.font_zong{
+  font-size: 37rpx;
+}
+.font_color{
+  font-size: 32rpx;
+  color: rgb(141, 141, 141);
+}
+button {
+  height: 100rpx;
+  background-color: #328589;
+  color: #fff;
+  line-height: 100rpx;
+}
+button:not([size='mini']) {
+width: 150px;
+
+}
+.addpeo{
+  width: 120rpx;
+  text-align: center;
+  height: 110rpx;
+  float: right;
+  font-size: 25rpx;
+
+}
+.group{
+  text-align: center;
+  width: 400rpx;
+}
+.checkbox{
+  margin-left: 10rpx;
+  font-size: 27rpx;
+
+}
+.numpeo{
+  width: 200rpx;
+  height: 110rpx;
+  float: left;
+  margin-left: 130rpx;
+  font-size: 28rpx;
+  color: rgb(177, 177, 177);
+  font-weight: 500
+}

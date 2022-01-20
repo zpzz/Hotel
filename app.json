@@ -1,0 +1,49 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/reservation/reservation",
+    "pages/myroom/myroom",
+    "pages/identity/identity",
+    "pages/hotel/hotel",
+    "pages/news/news",
+    "pages/hotel_detail/hotel_detail",
+    "pages/mine/mine",
+    "pages/person/person",
+    "pages/demo/demo",
+    "pages/order/order",
+    "pages/addpeople/addpeople",
+    "pages/add/add"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#328589",
+    "navigationBarTitleText": "智旅Hotel",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/resource/index_img/home.png",
+        "selectedIconPath": "/resource/index_img/homeselect.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "/resource/index_img/img_3.png",
+        "selectedIconPath": "/resource/index_img/img_4.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/resource/index_img/user.png",
+        "selectedIconPath": "/resource/index_img/userselect.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

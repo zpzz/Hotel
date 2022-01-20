@@ -1,0 +1,11 @@
+<view>
+  <block wx:for="{{people}}" wx:key="{{item.id}}">
+    <view class="nav" >
+      <view>{{item.name}}</view>
+      <view>身份证{{item.idcard}}</view>
+    </view>
+    <view data-id="{{item.id}}" bindtap="del">删除入住联系人</view>
+  </block>
+  <view bindtap="add">添加入住联系人</view>
+  <button bindtap="protect">保存</button>
+</view>

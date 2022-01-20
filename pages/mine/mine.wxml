@@ -1,0 +1,76 @@
+<view class="bgr">
+  <view class="person">
+    <view class="pic float">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="pic_r float">
+      <view class="font_weight"><open-data type="userNickName" class="nickname"></open-data></view>
+      <view class="font_color">查看并编辑个人资料</view>
+    </view>
+  </view>
+  <view class="han border_s" bindtap="onTap">
+    <view class="float_z">
+      <image src="/resource/person/wodefangjian.png"></image>
+    </view>
+    <view class="float_r">
+      <view class="float_z font_lie">房间</view>
+      <view class="">
+        <image src="/resource/index_img/next.png"></image>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="han" bindtap="navtap">
+    <view class="float_z">
+      <image src="/resource/person/youxiaodingdan.png">></image>
+    </view>
+    <view class="float_r border_x">
+      <view class="float_z font_lie">订单</view>
+      <view class="">
+        <image src="/resource/index_img/next.png"></image>
+      </view>
+    </view>
+
+  </view>
+  <view class="han">
+    <view class="float_z">
+      <image src="/resource/person/youhuijuan.png"></image>
+    </view>
+    <view class="float_r border_x">
+      <view class="float_z font_lie">优惠</view>
+      <view class="">
+        <image src="/resource/index_img/next.png"></image>
+      </view>
+    </view>
+
+  </view>
+  <view class="han">
+    <view class="float_z">
+      <image src="/resource/person/fuwupingjia-kefu.png"></image>
+    </view>
+    <view class="float_r border_x">
+      <view class="float_z font_lie">咨询</view>
+      <view class="">
+        <image src="/resource/index_img/next.png"></image>
+      </view>
+    </view>
+
+  </view>
+  <view class="han">
+    <view class="float_z">
+      <image src="/resource/person/fankui.png"></image>
+    </view>
+    <view class="float_r border_x">
+      <view class="float_z font_lie">反馈</view>
+      <view class="">
+        <image src="/resource/index_img/next.png"></image>
+      </view>
+    </view>
+
+  </view>
+
+</view>
+ <view class="btn">
+    <button>退出登录</button>
+  </view>

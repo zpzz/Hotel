@@ -1,0 +1,18 @@
+<block wx:for="{{orderlist}}" wx:key="{{item.id}}">
+  <view class="han">
+    <view class="pag">
+      <view class="ordername">{{item.snap_name}}</view>
+      <view class="orderimg">
+        <image src="{{item.snap_img}}"></image>
+      </view>
+      <view class="ordertime">
+        <view>1间，{{item.total_count}}人</view>
+        <view class="" >{{item.check_in_time}} - {{item.check_out_time}}</view>
+        <view class="">总价：￥{{item.total_price}}</view>
+      </view>
+    </view>
+    <view class="btn">
+      <button bindtap="cancel" data-id="{{item.id}}">取消订单</button>
+    </view>
+  </view>
+</block>

@@ -1,0 +1,75 @@
+.touch-item {
+ font-size: 14px;
+ display: flex;
+ justify-content: space-between;
+ 
+ width: 100%;
+ overflow: hidden
+}
+.top{
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: #328589;
+  color: #fff;
+  font-weight: 600;
+}
+.mount{
+  height: 100rpx;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.containerr{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25rpx 0;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 40rpx;
+  margin-top: 50rpx;
+
+}
+.content {
+ width: 100%;
+ padding: 10px;
+ line-height: 22px;
+ margin-right:0;
+ -webkit-transition: all 0.4s;
+ transition: all 0.4s;
+ -webkit-transform: translateX(90px);
+ transform: translateX(90px);
+ margin-left: -90px;
+}
+.border{
+border-bottom:1px solid #ccc;
+}
+.name{
+  font-size: 32rpx;
+}
+.idcard{
+  color: #ccc;
+  font-size: 26rpx;
+}
+.del {
+ background-color: orangered;
+ width: 90px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ color: #fff;
+ -webkit-transform: translateX(90px);
+ transform: translateX(90px);
+ -webkit-transition: all 0.4s;
+ transition: all 0.4s;
+}
+.touch-move-active .content,
+.touch-move-active .del {
+ -webkit-transform: translateX(0);
+ transform: translateX(0);
+}

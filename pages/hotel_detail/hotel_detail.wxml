@@ -1,0 +1,9 @@
+<view bindtap='actionSheetTap'>弹出</view>
+<action-sheet hidden="{{actionSheetHidden}}" bindchange="changeTap">
+  <block wx:for="{{actionSheetItems}}">
+    <action-sheet-item >
+      {{item}}
+    </action-sheet-item>
+  </block>
+  <action-sheet-cancel>取消</action-sheet-cancel>
+</action-sheet>

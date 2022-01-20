@@ -1,0 +1,54 @@
+.info {
+  width: 85%;
+  height: 700rpx;
+  position: relative;
+  top: 40rpx;
+  border: 1px #000 solid;
+  border-radius: 4%;
+  margin: 0 auto;
+}
+
+.info_per {
+  width: 85%;
+  height: 555rpx;
+  margin-left: 40rpx;
+  margin-top: 50rpx;
+  position: absolute;
+}
+
+.float_z {
+  margin-bottom: 45rpx;
+}
+
+.float_r {
+  border: 1px #000 solid;
+  position: relative;
+  float: right;
+  width: 220rpx;
+  height: 300rpx;
+  top: 40rpx;
+  right: 40rpx;
+}
+image{
+  width: 220rpx;
+  height: 300rpx;
+}
+.font_w{
+  position: relative;
+  top: 70rpx;
+  left: 40rpx;
+  width: 91%;
+  margin-bottom: 35rpx;
+
+}
+.font_weight{
+  font-size: 36rpx;
+  font-weight: 800;
+  margin-bottom: 10rpx;
+}
+.font_color{
+  color:rgb(129, 129, 129);
+}
+.font_size{
+  font-size: 30rpx;
+}

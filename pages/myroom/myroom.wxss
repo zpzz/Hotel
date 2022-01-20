@@ -1,0 +1,72 @@
+.bgr {
+  position: relative;
+  top: 50rpx;
+  width: 92%;
+  margin: 0 auto;
+}
+image{
+  height: 50rpx;
+  width: 50rpx;
+}
+.img image {
+  height: 85rpx;
+  width: 85rpx;
+  top: 20rpx;
+  position: relative;
+  left: 70rpx;
+}
+
+page {
+  background-color: #eee;
+}
+
+.info {
+  background-color: #fff;
+  height: 100rpx;
+  padding-left: 13px;
+  line-height: 100rpx;
+  border-radius: 5%;
+}
+.float_r{
+  float: right;
+  position: relative;
+  top:15rpx;
+}
+.room_info {
+  background-color: #fff;
+  position: relative;
+  top: 50rpx;
+  height: 587rpx;
+}
+
+.text {
+  height: 65rpx;
+  line-height: 65rpx;
+  padding-left: 13px;
+}
+
+.img {
+  float: left;
+  width: 227rpx;
+  height: 170rpx;
+  border: 2rpx #eee solid;
+  background-color: #fff;
+}
+
+.jiudian {
+  position: relative;
+  top: 93rpx;
+  background-color: #fff;
+  height: 65rpx;
+  border-radius: 5%;
+}
+
+.font_m {
+  width: 125rpx;
+  top: 10rpx;
+  position: relative;
+  left: 50rpx;
+  text-align: center;
+  font-size: 26rpx;
+
+}

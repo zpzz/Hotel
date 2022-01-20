@@ -1,0 +1,174 @@
+<view class="home">
+  <view class="img_top">
+    <view>
+      <image class="hotel-img" src="/resource/hotel_img/fengmian.jpg"></image>
+    </view>
+    <view class="hotel_zuoxia">
+      <image class="xp_img" src="/resource/hotel_img/picture.png"></image>
+      <view>180张</view>
+    </view>
+    <view class="evaluate">
+      <view>不错</view>
+      <view>4.5</view>
+      <view>空气好风景美</view>
+      <view>1000评论</view>
+    </view>
+
+  </view>
+  <view class="introduce">
+    <view class="font_weight">经律论文化旅游小镇经律论国际酒店</view>
+    <view class="font_size font_size1">高档型</view>
+    <view class="font_size location">
+      <view class="font_fm">曲江区小坑镇251省道旅游小镇内 曲江区</view>
+      <view class="font_size font_xm">
+        <view style="float:left">地图/导航</view>
+        <view>
+          <image class="small1" src="/resource/hotel_img/arr-right.png"></image>
+        </view>
+      </view>
+
+    </view>
+
+    <view class="font_size location">
+      <view class="font_fm">2015年装修</view>
+      <view class="font_xm">
+        <view style="float:left">详情/设施</view>
+        <image class="small1" src="/resource/hotel_img/arr-right.png"></image>
+      </view>
+
+    </view>
+    <view class="service">
+      <view class="font_size service_img">
+        <image class="small" src="/resource/hotel_img/wenquan.png"></image>
+        温泉
+      </view>
+      <view class="font_size service_img">
+        <image class="small" src="/resource/hotel_img/wifi.png"></image>
+        无线上网
+      </view>
+      <view class="font_size service_img">
+        <image class="small" src="/resource/hotel_img/youxian.png"></image>
+        有线上网
+      </view>
+      <view class="font_size service_img">
+        <image class="small" src="/resource/hotel_img/stop.png"></image>
+        免费停车
+      </view>
+    </view>
+  </view>
+  <view class="coupon">
+    <view class="coupon_lef">专享抵用卷</view>
+    <view class="coupon_rit font_size">
+      <view style="float:left">领取</view>
+      <view>
+        <image class="small1" src="/resource/hotel_img/arr-right.png"></image>
+      </view>
+    </view>
+
+  </view>
+  <view class="time">
+    <view class="icontent">
+      <view class="flex3 iconleft">
+        <picker bindchange="bindDateChange1" end="{{end}}" mode="date" start="{{start}}" value="{{datein}}">
+          <view class="iconfont1 font-1" style="color:{{color}}">{{datein}}</view>
+        </picker>
+        <view>入住</view>
+      </view>
+      <view class="flex3 iconrit">
+        <picker bindchange="bindDateChange2" end="{{end}}" mode="date" start="{{start}}">
+          <view class="iconfont1 font-1" style="color:{{color}}">{{dateout}}</view>
+        </picker>
+        <view>退房</view>
+      </view>
+      <view class="iconnum font_size">
+        <view style="float:left">共{{time}}晚</view>
+        <view>
+          <image class="small1" src="/resource/hotel_img/arr-right.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="select">
+    <view class="select_btn">大床</view>
+    <view class="select_btn">双床</view>
+    <view class="select_btn">含早</view>
+    <view class="select_btn">可取消</view>
+    <view class="select_btn">筛选</view>
+  </view>
+  <block wx:for="{{playlist}}" wx:key="{{item.id}}" >
+    <view bindtap='show' class="room" data-id="{{item.id}}" data-img="{{item.main_image}}">
+      <view>
+        <image class="room_img" src="{{item.main_image}}"></image>
+      </view>
+      <view class="font_room">
+        <view class="font_room1">{{item.name}}</view>
+        <view class="font_gray">{{item.area}} 大床 有窗 2-6层 不可取消</view>
+        <view class="font_red">￥{{item.price}}</view>
+      </view>
+      <view>
+        <view class="room_picture1">
+          <image catchtap="onTap" class="room_picture" src="/resource/hotel_img/pagedown_empty.png" data-name="{{item.name}}" data-index="{{item.id}}" data-price="{{item.price}}" data-dayin="{{datein}}" data-dayout="{{dateout}}" data-time="{{time}}"></image>
+        </view>
+      </view>
+    </view>
+  </block>
+  
+</view>
+<view class="zhezao" hidden="{{flag}}">
+  <view class="beijing">
+    <view>
+      <view class="hotel_title">{{detail.name}}</view>
+      <view bindtap="conceal" class="btn">
+        <image style="height: 35rpx;width: 35rpx;" src="/resource/hotel_detail/close.png"></image>
+      </view>
+    </view>
+    <view>
+      <image class="hotel_detail_pic" src="{{img}}"></image>
+    </view>
+    <view class="hotel_detail_cnt">
+      <view class="hotel_detail_img">
+        <image style="width:35rpx;height:35rpx;float:left;" src="/resource/hotel_detail/fangwu.png"></image>
+        <view>{{detail.area}}m</view>
+      </view>
+      <view class="hotel_detail_img">
+        <image style="width:35rpx;height:35rpx;float:left;" src="/resource/hotel_detail/youchuang.png"></image>
+        <view>有窗</view>
+      </view>
+      <view class="hotel_detail_img">
+        <image style="width:35rpx;height:35rpx;float:left;" src="/resource/hotel_detail/renshu.png"></image>
+        <view>{{detail.people_num}}</view>
+      </view>
+      <view class="hotel_detail_img">
+        <image style="width:35rpx;height:35rpx;float:left;" src="/resource/hotel_detail/chuang.png"></image>
+        <view>1张大床1.8m</view>
+      </view>
+    </view>
+    <view class="hotel_detail_text">
+      <view style="font-weight: 1000;">不可取消</view>
+      <view class="xiao">
+        <view class="dot"></view>
+        订单确定后不可取消/变更，如未入住，酒店将扣除全额房费
+      </view>
+    </view>
+    <view class="hotel_detail_text">
+      <view style="font-weight: 1000;">预定说明</view>
+      <view>
+        <view class="xiao">
+          <view class="dot"></view>1小时内确认订单</view>
+        <view class="xiao">
+          <view class="dot"></view>如需发票，请在下单前填写发票信息</view>
+      </view>
+    </view>
+    <view style="width:97%;height:85rpx;border-right: 5px #eee solid;border-left: 4px #eee solid;"></view>
+    <view class="hotel_detail_lst">
+      <view class="hotel_detail_lst_font">
+        <view style="color:red;float:left;margin-right: 7px">￥{{detail.price}}</view>
+        <view style="text-decoration:line-through;">￥840</view>
+      </view>
+      <view class="hotel_detail_yu">
+        <button bindtap="onTap" data-name="{{detail.name}}" data-index="{{detail.id}}" data-price="{{detail.price}}">预订</button>
+      </view>
+    </view>
+  </view>
+
+</view>

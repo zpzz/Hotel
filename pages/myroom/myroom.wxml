@@ -1,0 +1,62 @@
+<view class="bgr">
+  <view class="info" bindtap="onTap">
+    <view style="float:left;">入住信息</view>
+    <view class="float_r"> 
+      <image src="/resource/index_img/next.png"></image>
+    </view>
+  </view>
+  <view class="room_info">
+    <view class="text">房间服务</view>
+    <view>
+      <view class="img">
+        <image src="/resource/person/men.png"></image>
+        <view class="font_m">门</view>
+      </view>
+      <view class="img">
+        <image src="/resource/person/kongtiao.png"></image>
+        <view class="font_m">空调</view>
+      </view>
+      <view class="img">
+        <image src="/resource/person/deng.png"></image>
+        <view class="font_m">灯</view>
+      </view>
+      <view class="img">
+        <image src="/resource/person/wendu.png"></image>
+        <view class="font_m">温度显示</view>
+      </view>
+      <view class="img">
+        <image src="/resource/person/dasao.png"></image>
+        <view class="font_m">打扫</view>
+      </view>
+      <view class="img">
+        <image src="/resource/person/yongping.png"></image>
+        <view class="font_m">客用品</view>
+      </view>
+      <view class="img">
+        <image src="/resource/person/weixiu.png"></image>
+        <view class="font_m">维修</view>
+      </view>
+      <view class="img">
+        <image></image>
+      </view>
+      <view class="img">
+        <image></image>
+      </view>
+    </view>
+  </view>
+  <view class="jiudian">
+    <view class="text">酒店服务</view>
+    <view class="img">
+      <image src="/resource/person/125.png"></image>
+      <view class="font_m">晚餐</view>
+    </view>
+    <view class="img">
+      <image src="/resource/person/zaocan.png"></image>
+      <view class="font_m">早餐</view>
+    </view>
+    <view class="img">
+      <image src="/resource/person/jiaolian.png"></image>
+      <view class="font_m">预约健身</view>
+    </view>
+  </view>
+</view>

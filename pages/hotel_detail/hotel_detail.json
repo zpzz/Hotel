@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "Popup",
+  "usingComponents": {
+    "van-action-sheet": "/dist/action-sheet/index",
+    "van-popup": "/dist/popup/index",
+    "wux-button": "/lib/button/index",
+    "wux-cell-group": "/lib/cell-group/index",
+    "wux-cell": "/lib/cell/index",
+    "wux-popup": "/lib/popup/index"
+  }
+}

@@ -1,0 +1,154 @@
+.home {
+  width: 100%;
+}
+.content{
+  width: 100%;
+}
+.nabar {
+  width: 100%;
+  height: 150px;
+  background-color: #328589;
+  flex: -1;
+}
+.select{
+  padding-top:45rpx;
+  width: 100%;
+  height: 70rpx;
+  font-weight: 1000;
+  border-bottom: 3rpx solid #eee;
+}
+.center{
+  width: 50px;
+  margin: 0 auto;
+  padding-bottom: 17rpx;
+}
+.center:hover{
+ border-bottom: 5rpx solid #328589;
+}
+.select-left { 
+  text-align: center;
+  float: left;
+  width: 50%; 
+}
+
+.select-rit {
+  text-align: center;
+  
+  width: 50%;
+  float: right;
+}
+.index {
+  border: 10rpx;
+}
+.font{
+  float: left;
+}
+.indexbox {
+  position: relative;
+  width: 90%;
+  height: 900rpx;
+  margin: 0 auto;
+  top: -150rpx;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
+  border-top-right-radius: 5%;
+  box-shadow: 15rpx 0 20rpx -20rpx #000, -15rpx 0 20rpx -20rpx #000, 0 15rpx 20rpx -25rpx #000;
+}
+.place{
+  width: 100%;
+  height: 60rpx;
+  padding: 25rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+.location{
+  width: 100%;
+  height: 60rpx;
+  padding: 25rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+.grade{
+  width: 100%;
+  height: 60rpx;
+  padding: 25rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+.font-1{
+  color: #45b8a3;
+}
+.font-3{
+  margin-left: 100rpx;
+  float: left;
+}
+.icontent {
+  display: flex;
+  padding: 50rpx 0rpx;
+  font-size: 26rpx;
+  border-bottom: 1rpx solid #eee;
+  position: relative;
+}
+
+.iconleft {
+  width: 49.5%;
+  border-right: 1rpx solid #eee;
+  margin: 10px;
+}
+
+.iconrit {
+  width: 49.5%;
+  margin: 10px;
+}
+
+.iconfont1 {
+  font-size: 36rpx;
+  
+  margin-bottom: 30rpx;
+}
+
+.iconnum {
+  background-color: white;
+  position: absolute;
+  bottom: -15rpx;
+  left: 30%;
+  width: 40%;
+  text-align: center;
+}
+
+.iconbutton {
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 15rpx;
+  margin-top: 80rpx;
+  font-size: 36rpx;
+}
+button{
+  background-color: #328589;
+  color: #fff;
+  font-weight: 0;
+  width: 400rpx;
+}
+image{
+  width: 50rpx;
+  height: 50rpx;
+  
+}
+.picture-search{
+  float: left;
+  margin: 0 25rpx;
+}
+.picture-next{
+  float: right;
+}
+.nabar-bottom{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  top: -100rpx;
+
+}
+.advertisement{
+  display: block;
+  margin: 0 auto;
+  width: 675rpx;
+  height: 400rpx;
+  border-radius: 5%;
+}

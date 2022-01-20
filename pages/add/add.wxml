@@ -1,0 +1,25 @@
+<view class="top">添加入住人</view>
+<view class="contain">
+  <form bindsubmit="formSubmit" bindreset="formReset">
+ <view>
+  <input class="inp" type="text" name="name" placeholder="姓名" confirm-type="done" value="{{name}}"/>
+  <view class="sex">
+      <radio-group  name="sex" value="{{sex}}">
+    性别：
+    <label><radio value="女"/>女</label>
+    <label><radio value="男"/>男</label>
+    </radio-group>
+  </view>
+  <input class="inp" type="text" name="idcard" placeholder="身份证号码" confirm-type="done" value="{{idcard}}"/>
+  <view class="sex col">联系方式：</view>
+  <input class="inp" type="text" name="phone" placeholder="手机号" confirm-type="done" value="{{phone}}"/>
+  
+
+ </view>
+ 
+ <view class="btn-area">
+  <view class="btn-areal"><button formType="submit">添加</button></view>
+  <view class="btn-areal"><button formType="reset">重置</button></view>
+ </view>
+</form>
+</view>

@@ -1,0 +1,82 @@
+<view class="home">
+  <view class="nabar">
+    <!-- <input value="{{code}}" type="tel" /> -->
+  </view>
+  <view class="content">
+
+    <view class="indexbox">
+      <view class="select">
+        <view class="select-left" bindtap='login'>
+          <view class="center">全日房</view>
+        </view>
+        <view class="select-rit">
+          <view class="center">钟点房</view>
+        </view>
+      </view>
+      <view class="place">
+        <view>
+          <image class="picture-search" src="/resource/index_img/search.png"></image>
+        </view>
+        <view class="font font-1">韶关市</view>
+        <view>
+          <image class="picture-next" src="/resource/index_img/next.png"></image>
+        </view>
+      </view>
+      <view class="icontent">
+        <view>
+          <image class="picture-search" src="/resource/index_img/calendar.png"></image>
+        </view>
+        <view class="iconnum">共{{time}}晚</view>
+        <view class="flex3 iconleft">
+          <picker bindchange="bindDateChange1" end="{{end}}" mode="date" start="{{start}}" value="{{datein}}">
+            <view class="iconfont1 font-1" style="color:{{color}}">{{datein}}</view>
+          </picker>
+          <view>入住日期</view>
+        </view>
+        <view class="flex3 iconrit">
+          <picker bindchange="bindDateChange2" end="{{end}}" mode="date" start="{{start}}">
+            <view class="iconfont1 font-1" style="color:{{color}}">{{dateout}}</view>
+          </picker>
+          <view>退房日期</view>
+        </view>
+        <view>
+          <image class="picture-next" src="/resource/index_img/next.png"></image>
+        </view>
+      </view>
+      <view class="location">
+        <view>
+          <image class="picture-search" src="/resource/index_img/location.png"></image>
+        </view>
+        <view class="font font-1" style="margin-right:19rpx">定位</view>
+        <view class="font">旅游小镇经律论酒店</view>
+        <view>
+          <image class="picture-next" src="/resource/index_img/next.png"></image>
+        </view>
+      </view>
+      <view class="grade">
+        <view class="font-3">高档/四星</view>
+        <view>
+          <image class="picture-next" src="/resource/index_img/next.png"></image>
+        </view>
+      </view>
+      <view class="iconbutton sure" style="background:{{color}}" wx:if="{{time>0}}">
+        <button bindgetuserinfo="bindGetUserInfo" wx:if="{{platform.type==2}}" bindtap="onTap">查询房源</button>
+        <button bindgetuserinfo="bindGetUserInfo" bindtap="onTap" wx:else>查询房源</button>
+      </view>
+      <view class="iconbutton none" style="background:{{color}}" wx:if="{{time<=0}}">
+        <button bindgetuserinfo="bindGetUserInfo">查询房源</button>
+      </view>
+    </view>
+  </view>
+  <swiper class="nabar-bottom" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+      <swiper-item>
+        <image src="/resource/index_img/advertisement.jpg" class="advertisement"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/resource/index_img/advertisement.jpg" class="advertisement"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/resource/index_img/advertisement.jpg" class="advertisement"></image>
+      </swiper-item>
+  </swiper>
+</view>

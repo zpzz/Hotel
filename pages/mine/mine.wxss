@@ -1,0 +1,102 @@
+page {
+  background-color: #eee;
+}
+
+.bgr {
+  background-color: #fff;
+}
+
+.float_z image {
+  width: 62rpx;
+  height: 62rpx;
+}
+
+image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.person {
+  width: 100%;
+  height: 200rpx;
+  margin-left: 40rpx;
+}
+
+.float {
+  float: left;
+}
+
+.float_z {
+  float: left;
+  position: relative;
+  top: 20rpx;
+}
+
+.float_r {
+  width: 88%;
+  float: right;
+  position: relative;
+  top: 20rpx;
+  height: 88rpx;
+}
+
+.pic {
+  position: relative;
+  top: 40rpx;
+  width: 125rpx;
+  height: 125rpx;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+}
+
+.pic_r {
+  position: relative;
+  top: 40rpx;
+  padding: 20rpx;
+  left: 30rpx;
+}
+
+.font_weight {
+  font-weight: 1000;
+  font-size: 35rpx;
+}
+
+.font_color {
+  font-weight: 1000;
+  color: #328589;
+  font-size: 27rpx;
+}
+
+.font_lie {
+  width: 88%;
+  line-height: 7px;
+}
+
+.image {
+  width: 125rpx;
+  height: 125rpx;
+  border-radius: 50%;
+}
+
+.han {
+  width: 100%;
+  height: 110rpx;
+  padding-left: 40rpx;
+}
+
+.border_s {
+  border-top: 20rpx #eee solid;
+  border-bottom: 20rpx #eee solid;
+  padding-top: 10rpx;
+  height: 110rpx;
+}
+
+.border_x {
+  border-bottom: 2rpx #eee solid;
+}
+
+.btn {
+  position: relative;
+  top: 145rpx;
+}
